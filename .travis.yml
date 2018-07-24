@@ -6,6 +6,6 @@ cache:
     - "node_modules"
 before_deploy: "echo 'ready?'"
 deploy:
-  provider: ytf
+  provider: npm
   email: "1421752582@qq.com"
   api_key: "6074ecce-c5fb-489c-9e82-8322973d31ae"

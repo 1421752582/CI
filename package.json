@@ -1,0 +1,21 @@
+{
+	"name": "npm-repo-test",
+	"version": "1.0.0",
+	"description": "just test",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"fake test\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/1421752582/CI.git"
+	},
+	"author": "npmuser",
+	"license": "ISC",
+	"dependencies": {
+		"chai": "^4.1.2",
+		"mocha": "^4.0.1",
+		"mqtt": "^2.1.2",
+		"package_name": "^1.0.2"
+	}
+}
